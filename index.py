@@ -685,29 +685,77 @@
 # car1 = car()
 # print(car1.colour)
 
-class student:
-    #default constructores
-    def __init__(self):
-         pass
-     #parameterized constructors
+# class Student:
+#     #default constructores
+#     def __init__(self):
+#          pass
+#      #parameterized constructors
          
-    def __init__(self, name,marks):
-        self.name = name
-        self.marks = marks
-        print("adding new student in database")
-s1 = student("karan",97)
-print(s1.name,s1.marks)
+#     def __init__(self, name,marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new student in database")
+# s1 = Student("karan",97)
+# print(s1.name,s1.marks)
 
-s2 = student("arjun",89)
-print(s2.name, s2.marks)
+# s2 = Student("arjun",89)
+# print(s2.name, s2.marks)
 
 #class & instance attributes
+# class Student:
+#     collage_name = "gyan vihar"
+    
+    
+#     def __init__(self, name,marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new student in database")
+# s1 = Student("karan",97)
+# print(s1.name,s1.marks,s1.collage_name)
+
+# s2 = Student("arjun",89)
+# print(s2.name, s2.marks)
+# print(s2.collage_name)
+# print(Student.collage_name)
+
+#methods
+# class Student:
+#    collage_name = "gyan vihar"
+    
+    
+#    def __init__(self, name,marks):
+#         self.name = name
+#         self.marks = marks
+        
+#    def welcome(self):
+#     print("welcome students")
+        
+# s1 = Student("karan",97)
+
+
+    
+# s1.welcome()
+    
 
 
 
+# class Student:
+#    collage_name = "gyan vihar"
+    
+    
+#    def __init__(self, name,marks):
+#         self.name = name
+#         self.marks = marks
+        
+#    def get_avg(self):
+#      sum = 0
+#      for val in self.marks:
+#          sum +=val
+#      print("hi",self.name,"your avg score is:",sum/3)
+        
+# s1 = Student("karan",[97,87,90])
+# s1.get_avg()
 
-
-
-
+#static methods
 
 
